@@ -1,0 +1,22 @@
+@use "../variables" as *;
+
+.header {
+  background-color: map-get($colors, "blue-100");
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  img {
+    width: 50px;
+    border-radius: 4rem;
+    border: solid 2px #348A89;
+  }
+
+  h1 {
+    font-family: Raleway;
+    color: #348A89;
+  }
+
+}
