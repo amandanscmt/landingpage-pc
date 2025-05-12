@@ -1,5 +1,16 @@
 @use "../variables" as *;
 
+.functions {
+  h2 {
+    font-family: Barlow Condensed;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: map-get($map: $colors, $key: "black");
+  }
+}
+
 .functionsContainer {
   display: flex;
   text-align: center;

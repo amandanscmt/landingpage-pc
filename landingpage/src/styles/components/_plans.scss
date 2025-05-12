@@ -18,6 +18,7 @@
     display: flex;
     gap: 2rem;
     justify-content: center;
+    color: map-get($map: $colors, $key: "black");
 
     @media (min-width: $breakpoint-tablet) and (max-width: 1023px) {
         flex-wrap: wrap;

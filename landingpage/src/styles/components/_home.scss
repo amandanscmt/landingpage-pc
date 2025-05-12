@@ -29,6 +29,7 @@
 .introduction {
   display: flex;
   justify-content: center;
+  border-bottom: 1px solid map-get($map: $colors, $key: "gray-100");
 
   p {
     width: 40%;
