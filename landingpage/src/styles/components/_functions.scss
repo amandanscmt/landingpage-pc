@@ -1,0 +1,31 @@
+@use "../variables" as *;
+
+.functionsContainer {
+  display: flex;
+  text-align: center;
+  gap: 2rem;
+  padding: 0 3rem;
+
+  h3 {
+    margin: 0;
+    font-weight: 400;
+  }
+
+  p {
+    font-weight: 100;
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: map-get($colors, "blue-200");
+    padding: 0.7rem;
+    margin: 1rem;
+    border-radius: 2rem;
+  }
+
+  img {
+    width: 25px;
+  }
+}

@@ -14,7 +14,8 @@ $colors: (
   "green-200": #99dfb7,
   "green-300": #66cf93,
   "green-400": #33bf6f,
-  "green-500": #00af4b, // Verde principal (não escuro)
+  "green-500": #00af4b,
+  "green-600": #348A89, // Verde principal (não escuro)
 
   // Neutros (para textos e fundos)
   "gray-50": #f9f9f9,
@@ -23,13 +24,9 @@ $colors: (
   "gray-300": #cccccc,
   "black": #000000,
   "white": #ffffff,
+  "off-white": #FAF9F6,
 );
 
-// ===== Espaçamentos =====
-$spacing: (
-  "xs": "0.5rem",
-  "sm": "1rem",
-  "md": "1.5rem",
-  "lg": "2rem",
-  "xl": "3rem",
-);
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
