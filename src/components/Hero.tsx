@@ -1,4 +1,4 @@
-import heroImage from "/assets/heroimage.jpg";
+import heroImage from "./assets/heroimage.jpg";
 import { Parallax } from "react-parallax";
 
 const Hero = () => {
