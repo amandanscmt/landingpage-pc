@@ -1,6 +1,6 @@
-import instaicon from "../../public/assets/instaicon.svg";
-import phoneicon from "../../public/assets/phoneicon.svg";
-import googleplayicon from "../../public/assets/googleplayicon.svg";
+import instaicon from "/assets/instaicon.svg";
+import phoneicon from "/assets/phoneicon.svg";
+import googleplayicon from "/assets/googleplayicon.svg";
 
 const Footer = () => {
   return (
