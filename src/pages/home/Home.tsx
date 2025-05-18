@@ -1,5 +1,5 @@
 import "../../styles/main.scss";
-import logo from "./assets/logo.png";
+import logo from "../assets/logo.png";
 import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
 import Functions from "../../components/Functions";
