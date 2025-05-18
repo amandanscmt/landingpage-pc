@@ -1,5 +1,5 @@
 import instaicon from "../assets/instaicon.svg";
-import phoneicon from "../assets/phoneicon.svg";
+import phoneicon from "/public/phoneicon.svg";
 import googleplayicon from "../assets/googleplayicon.svg";
 
 const Footer = () => {
